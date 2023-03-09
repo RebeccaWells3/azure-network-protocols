@@ -25,11 +25,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
+- Create Resource Group and Virtual Machines with Microsoft Azure
+- Access Virtual Machine 1 & Download Wireshark
+- Observe Network Traffic Protocols with Wireshark
 - Step 4
 
+<h2>Create Resource Group and Virtual Machines with Microsoft Azure</h2>
+
+<p>
+ 
 <h2>Actions and Observations</h2>
 
 <p>

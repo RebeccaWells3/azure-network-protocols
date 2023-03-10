@@ -33,13 +33,31 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Prerequisite Steps</h2>
 
 <p>
-1. We must create a resource group in Microsoft Azure.
+1. Create a resource group in Microsoft Azure
 </p>
 <p>
 <img src="https://i.imgur.com/Iq1UNZP.png"/>
 </p>
+<br />
 <p>
-2. We must create two virtual machines under the resource group. We will make the first virtual machine (VM1) have a Windows 10 (21H2) OS. The second virtual machine (VM2) will have an Ubuntu Server 20.04 OS.
+2. Create two virtual machines under the resource group
+</p>
+<p>
+ -Give the first virtual machine (VM1) a Windows 10 (21H2) OS and the second virtual machine (VM2) an Ubuntu Server 20.04 OS 
+</p>
+<p>
+ -Make the region of both virtual machines the same as our resource group's
+</p>
+<p>
+ -Size of both virtual machines will be Standard_E2s_v3-2vcpus, 16 GiB memory
+</p>
+<p>
+ -Create a username and password for each virtual machine (We will use these to login to our virual machines.)
+<p>
+<img src="https://i.imgur.com/mLztC45.png"/>
+</p>
+<p>
+<img src="https://i.imgur.com/gylLFsp.png"/>
 </p>
 
 <h2>Actions and Observations</h2>

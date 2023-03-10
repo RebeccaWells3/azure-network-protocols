@@ -38,12 +38,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img src="https://i.imgur.com/Iq1UNZP.png"/>
 </p>
-<br />
 <p>
 2. Create two virtual machines under the resource group
 </p>
 <p>
- -Give the first virtual machine (VM1) a Windows 10 (21H2) OS and the second virtual machine (VM2) an Ubuntu Server 20.04 OS 
+ -Give the virtual machine 1 (VM1) a Windows 10 (21H2) OS and virtual machine 2 (VM2) an Ubuntu Server 20.04 OS 
 </p>
 <p>
  -Make the region of both virtual machines the same as our resource group's
@@ -58,6 +57,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 <img src="https://i.imgur.com/gylLFsp.png"/>
+</p>
+<p>
+3. Connect to VM1 by using Remote Desktop Connection and VM1's public IP address
+</p>
+-Login to VM1 with username and password created in step 2
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <h2>Actions and Observations</h2>

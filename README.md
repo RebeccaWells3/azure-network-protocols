@@ -30,10 +30,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Observe Network Traffic Protocols with Wireshark
 - Step 4
 
-<h2>Create Resource Group and Virtual Machines with Microsoft Azure</h2>
+<h2>Prerequisite Steps</h2>
 
 <p>
- 
+1. We must create a resource group in Microsoft Azure.
+</p>
+<p>
+<img src="https://i.imgur.com/Iq1UNZP.png"/>
+</p>
+<p>
+2. We must create two virtual machines under the resource group. We will make the first virtual machine (VM1) have a Windows 10 (21H2) OS. The second virtual machine (VM2) will have an Ubuntu Server 20.04 OS.
+</p>
+
 <h2>Actions and Observations</h2>
 
 <p>

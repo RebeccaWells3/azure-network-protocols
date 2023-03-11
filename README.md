@@ -25,8 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create a resource group
-- Create Windows 10 and Ubuntu (Linux) Virtual Machines
+- Create a resource group and Windows 10 and Ubuntu (Linux) Virtual Machines
 - Remotely Login to Windows 10 Virtual Machine
 - Download and Install Wireshark and Open Command Prompt
 - Observe traffic on ICMP, SSH, DHCP, DNS, RDP
@@ -59,17 +58,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img src="https://i.imgur.com/gylLFsp.png"/>
 </p>
+<h2>Remotely Login to Windows 10 Virtual Machine</h2>
 <p>
-3. Connect to VM1 by using Remote Desktop Connection and VM1's public IP address
+1. Connect to VM1 by using Remote Desktop Connection and VM1's public IP address
+<p>
+<img src="https://i.imgur.com/3u3xSsb.png"/>
 </p>
--Login to VM1 with username and password created in step 2
+</p>
+2. Login to VM1 with username and password 
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Z1UyG6g.png"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

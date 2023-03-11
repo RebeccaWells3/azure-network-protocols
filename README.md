@@ -28,7 +28,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create a resource group and Windows 10 and Ubuntu (Linux) Virtual Machines
 - Remotely Login to Windows 10 Virtual Machine
 - Download and Install Wireshark
-- Observe traffic on ICMP, SSH, DHCP, DNS, and RDP
+- Observe RDP, ICMP, SSH, DHCP, and DNS Traffic
 
 <h2>Actions and Observations</h2>
 <h2>Create a resource group and Windows 10 and Ubuntu (Linux) Virtual Machines</h2>
@@ -77,7 +77,7 @@ Open web browser and search "download wireshark"
 <p>
 <img src="https://i.imgur.com/IaUWgMM.png"/>
 </p>
-<h2>Observe traffic on ICMP, SSH, DHCP, DNS, and RDP<h2>
+<h2>Observe RDP, ICMP, SSH, DHCP, and DNS Traffic<h2>
 
 <h2>RDP (Remote Desktop Protocol)<h2>
 <p>
@@ -93,6 +93,9 @@ Open web browser and search "download wireshark"
 2. Block ICMP traffic to VM2 by setting an inbound firewall rule in Azure Network Security Groups and observe results
 <p>
 <img src="https://i.imgur.com/HdQomj0.png"/>
+</p>
+<p>
+<img src="https://i.imgur.com/MWo2nc7.png"/>
 </p>
 <h2>SSH (Secure Shell)<h2>
 <p>

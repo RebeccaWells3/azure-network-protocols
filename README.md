@@ -15,7 +15,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDP, DNS, HTTP/S, ICMP)
+- Various Network Protocols (ICMP, SSH, DHCP, DNS, RDP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -27,8 +27,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Create a resource group and Windows 10 and Ubuntu (Linux) Virtual Machines
 - Remotely Login to Windows 10 Virtual Machine
-- Download and Install Wireshark and Open Command Prompt
-- Observe traffic on ICMP, SSH, DHCP, DNS, RDP
+- Download and Install Wireshark
+- Observe traffic on ICMP, SSH, DHCP, DNS, and RDP
 
 <h2>Actions and Observations</h2>
 <h2>Create a resource group and Windows 10 and Ubuntu (Linux) Virtual Machines</h2>
@@ -70,18 +70,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img src="https://i.imgur.com/Z1UyG6g.png"/>
 </p>
+<h2>Download and Install Wireshark</h2>
 <p>
+1. Open web browser and search "download wireshark"
+</p>
+<p>
+<img src="https://i.imgur.com/IaUWgMM.png"/>
+</p>
+<h2>Observe traffic on ICMP, SSH, DHCP, DNS, and RDP<h2>
+<p
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

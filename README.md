@@ -79,11 +79,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <h2>Observe traffic on ICMP, SSH, DHCP, DNS, and RDP<h2>
 
-<h2>RDP<h2>
+<h2>RDP (Remote Desktop Protocol)<h2>
 <p>
 <img src="https://i.imgur.com/HuwguyK.png"/>
 </p>
-<h2>ICMP<h2>
+<h2>SSH (Secure Shell)<h2>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>

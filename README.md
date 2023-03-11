@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1>Inspecting Traffic Between Azure Virtual Machines and Network Security Groups (NSGs)</h1>
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
@@ -15,7 +15,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (ICMP, SSH, DHCP, DNS, RDP)
+- Various Network Protocols (RDP, ICMP, SSH, DHCP, DNS)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -72,7 +72,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <h2>Download and Install Wireshark</h2>
 <p>
-1. Open web browser and search "download wireshark"
+Open web browser and search "download wireshark"
 </p>
 <p>
 <img src="https://i.imgur.com/IaUWgMM.png"/>
@@ -82,6 +82,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>RDP (Remote Desktop Protocol)<h2>
 <p>
 <img src="https://i.imgur.com/HuwguyK.png"/>
+</p>
+<h2>ICMP (Internet Control Message Protocol)<h2>
+<p>
+1. Use perpetual ping command to ping VM2 and observe VM2's replies
+<p>
+<img src="https://i.imgur.com/TCoLjJN.png"/>
+</p>
+<p>
+2. Block ICMP traffic to VM2 by setting an inbound firewall rule in Azure Network Security Groups and observe results
+<p>
+<img src="https://i.imgur.com/HdQomj0.png"/>
 </p>
 <h2>SSH (Secure Shell)<h2>
 <p>

@@ -25,13 +25,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create Resource Group and Virtual Machines with Microsoft Azure
-- Access Virtual Machine 1 & Download Wireshark
-- Observe Network Traffic Protocols with Wireshark
-- Step 4
+- Create a resource group
+- Create Windows 10 and Ubuntu (Linux) Virtual Machines
+- Remotely Login to Windows 10 Virtual Machine
+- Download and Install Wireshark and Open Command Prompt
+- Observe traffic on ICMP, SSH, DHCP, DNS, RDP
 
-<h2>Prerequisite Steps</h2>
-
+<h2>Actions and Observations</h2>
+<h2>Create a resource group and Windows 10 and Ubuntu (Linux) Virtual Machines</h2>
 <p>
 1. Create a resource group in Microsoft Azure
 </p>
@@ -42,7 +43,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 2. Create two virtual machines under the resource group
 </p>
 <p>
- -Give the virtual machine 1 (VM1) a Windows 10 (21H2) OS and virtual machine 2 (VM2) an Ubuntu Server 20.04 OS 
+ -Give virtual machine 1 (VM1) a Windows 10 (21H2) OS and virtual machine 2 (VM2) an Ubuntu Server 20.04 OS 
 </p>
 <p>
  -Make the region of both virtual machines the same as our resource group's
@@ -66,8 +67,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
-<h2>Actions and Observations</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

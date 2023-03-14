@@ -99,6 +99,12 @@ Open web browser and search "download wireshark"
 </p>
 <h2>SSH (Secure Shell)<h2>
 <p>
+The username and password created for VM2 will be used in this exercise
+<p>
+<img src="https://i.imgur.com/m9gorqJ.png"/>
+</p>
+<h2>DHCP (Dynamic Host Configuration Protocol)<h2>
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>

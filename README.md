@@ -109,5 +109,5 @@ The username and password created for VM2 will be used in this exercise
 </p>
 <h2>DNS (Domain Name System)<h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZpRW8AI.png"/>
 </p>

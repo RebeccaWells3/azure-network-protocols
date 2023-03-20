@@ -28,25 +28,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 <h2>Create a resource group and Windows 10 and Ubuntu (Linux) Virtual Machines</h2>
 <p>
-1. Create a resource group in Microsoft Azure
+Start by creating a resource group. Once you have the resource group created, create the virtual machines within the resource group. Be sure you give the first virtual machine (VM1) a Windows 10 (21H2) OS and the second virtual machine (VM2) an Ubuntu Server 20.04 OS. Make the regions of both virtual machines the same as the resource group's. Additionally, you want to be sure that the size of virtual machines is set to Standard_E2s_v3-2vcpus with 16 GiB of memory to provide optimal performance. Lastly, be sure to create a username and password for both of the virtual machines. 
 </p>
 <p>
 <img src="https://i.imgur.com/Iq1UNZP.png"/>
 </p>
-<p>
-2. Create two virtual machines under the resource group
-</p>
-<p>
- -Give virtual machine 1 (VM1) a Windows 10 (21H2) OS and virtual machine 2 (VM2) an Ubuntu Server 20.04 OS 
-</p>
-<p>
- -Make the region of both virtual machines the same as our resource group's
-</p>
-<p>
- -Size of both virtual machines will be Standard_E2s_v3-2vcpus, 16 GiB memory
-</p>
-<p>
- -Create a username and password for each virtual machine (We will use these to login to our virual machines.)
 <p>
 <img src="https://i.imgur.com/mLztC45.png"/>
 </p>
